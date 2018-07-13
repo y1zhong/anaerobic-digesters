@@ -54,3 +54,12 @@ Lastly, we combined the dataset with a subset of samples from the [Earth
 Microbiome Project](http://www.earthmicrobiome.org/) (EMP) and created a
 [sample classifier](notebooks/0.6.0-distance-classification-to-the-emp.ipynb)
 based on the environmental labels from the EMP.
+
+----------
+
+### Dependencies
+
+These notebooks were executed with [QIIME version
+2018.4](https://docs.qiime2.org/2018.4/install/native/) and the dependency
+stack of that release. Except for scikit-bio (0.5.2 at SHA 5665a8909b4) and
+Emperor (1.0.0 beta16-dev at SHA c9d787ff24).
